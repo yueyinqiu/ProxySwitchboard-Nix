@@ -37,6 +37,13 @@ proxy-switchboard.packages.${system}.proxy-switchboard-client
 - `proxy-switchboard-server` — the local proxy server (`ProxySwitchboard.Server`).
 - `proxy-switchboard-client` — the CLI client (`ProxySwitchboard.Client`).
 
+Or try them directly from the CLI:
+
+```console
+$ nix shell github:yueyinqiu/ProxySwitchboard-Nix#proxy-switchboard-server
+$ nix shell github:yueyinqiu/ProxySwitchboard-Nix#proxy-switchboard-client
+```
+
 ---
 
-All documentation in this repository is AI-generated.
+All documentation and `description` fields in this repository are AI-generated.
