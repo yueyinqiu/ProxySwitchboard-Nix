@@ -7,13 +7,13 @@
 
 buildDotnetModule (finalAttrs: {
   pname = "proxy-switchboard-client";
-  version = "0.3.0";
+  version = "0.3.1";
 
   src = fetchFromGitHub {
     owner = "yueyinqiu";
     repo = "ProxySwitchboard";
     rev = "v${finalAttrs.version}";
-    hash = "sha256-XGF70h9uQgFje8IpeuJwoIDUVuX+401W7TRrDpdKvEU=";
+    hash = "sha256-KLWhU9NZxJwwc+u76k2b6kTs0a2NX1Oxr4rYMlPljwQ=";
   };
 
   projectFile = "src/ProxySwitchboard.Client/ProxySwitchboard.Client.csproj";
